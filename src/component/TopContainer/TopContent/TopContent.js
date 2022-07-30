@@ -9,11 +9,11 @@ const TopContent = () =>{
                 <p>A passinate Web Developer</p>
 
                 <a href = "www.google.com">
-                    <button classname="topContent__downloadButton">Download CV</button>
+                    <button className="topContent__downloadButton">Download CV</button>
                 </a>
 
             <Link to="projects" smoth={true} furation={500}>
-                <button classname="topContent__workButton">My Work</button>
+                <button className="topContent__workButton">My Work</button>
             </Link>
         
             </div>

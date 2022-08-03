@@ -12,7 +12,7 @@ const TopContent = () =>{
                     <button className="topContent__downloadButton">Download CV</button>
                 </a>
 
-            <Link to="projects" smoth={true} furation={500}>
+            <Link to="projects" smooth={true} furation={500}>
                 <button className="topContent__workButton">My Work</button>
             </Link>
         

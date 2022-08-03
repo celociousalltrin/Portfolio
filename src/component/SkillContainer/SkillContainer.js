@@ -7,10 +7,12 @@ const SkillContainer = ()=>{
     return(
        <Element name= "skills" className="skillContainer">
         <div className="skillcontainer__image">
+         <div className="SkillContainer__head">
+         <h2>SKILLSET</h2>
+         </div>
         <img src = {skills} alt="" />
         </div>
         <div className="skillContainer__text">
-            <h2>SKILLSET</h2>
             <div className="skillcontainer__skillset">
                 <h5>HTML</h5>
          <div className="skillcontainer__slider skillcontainer__slider1">
